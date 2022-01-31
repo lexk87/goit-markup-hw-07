@@ -4,6 +4,7 @@ $accentColor: #2196f3;
 // Цвет бекграунда сайта
 $bgPrimaryColor: #ffffff;
 $bgSecondaryColor: #f5f4fa;
+$footerBgColor: #2f303a;
 // Цвет текста сайта
 $textPrimaryColor: #212121;
 $textSecondaryColor: #757575;
@@ -13,9 +14,15 @@ $iconsSecondaryColor: #ffffff;
 // Цвет текста кнопок
 $btnPrimaryTextColor: #ffffff;
 $btnSecondaryTextColor: #212121;
-// Цвет ховера главной кнопки
+// Цвет ховера основной кнопки
 $mainBtnHoverColor: #188ce8;
+// Цвет заголовка секции герой
+$heroTitleColor: #ffffff;
 
 // АНИМАЦИЯ
 // Основной transition
 $mainTransition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+// ТЕНИ
+// Тень основной кнопки
+$mainBtnShadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
