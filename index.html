@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>goit-markup-hw-03-index</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Style -->
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+    <!-- Хедер страницы -->
+    <header class="header">
+        <!-- Контейнер хедера -->
+        <div class="container header__container">
+            <!-- Логотип хедера -->
+            <a href="./index.html" class="logo header__logo">Web<span class="header__logo--color">Studio</span></a>
+            <!-- Навигация хедера -->
+            <nav class="nav header__nav">
+                <!-- Список навигации хедера -->
+                <ul class="links-list">
+                    <li class="links-list__item"><a href="./index.html" class="links-list__link active-link">Студия</a></li>
+
+                    <li class="links-list__item"><a href="./portfolio.html" class="links-list__link">Портфолио</a></li>
+
+                    <li class="links-list__item"><a href="" class="links-list__link">Контакты</a></li>
+                </ul>
+            </nav>
+            <!-- Контакты хедера -->
+            <ul class="contacts-list">
+                <li class="contacts-list__item">
+                    <a href="mailto:info@devstudio.com" class="contacts-list__link">
+                        <svg class="contacts-list__icon" width="16" height="12">
+                            <use href="./images/icons.svg#icon-email-icon"></use>
+                        </svg>
+                        <span>info@devstudio.com</span>
+                    </a>
+                </li>
+
+                <li class="contacts-list__item">
+                    <a href="tel:+380961111111" class="contacts-list__link">
+                        <svg class="contacts-list__icon" width="10" height="16">
+                            <use href="./images/icons.svg#icon-smartphone-icon"></use>
+                        </svg>
+                        <span>+38 096 111 11 11</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- JS для модального окна -->
+    <script src="./js/modal.js"></script>
+
+</body>
+</html>
