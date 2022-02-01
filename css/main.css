@@ -182,6 +182,90 @@ body {
   color: #212121;
 }
 
+.iconset-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.iconset-one__item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.iconset-one__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.iconset-one__link--bright-bg {
+  color: #afb1b8;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.iconset-one__link--bright-bg:hover, .iconset-one__link--bright-bg:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.iconset-one__icon {
+  display: block;
+}
+
+.iconset-one__icon--bright-bg {
+  fill: currentColor;
+}
+
+.cardset-three {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+
+.cardset-three__card {
+  -ms-flex-preferred-size: calc(100% / 4 - 30px);
+      flex-basis: calc(100% / 4 - 30px);
+  margin-top: 30px;
+  margin-left: 30px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.cardset-three__box {
+  padding: 30px 32px;
+  text-align: center;
+}
+
+.cardset-three__title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  margin-bottom: 10px;
+}
+
+.cardset-three__text {
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  color: #757575;
+  margin-bottom: 16px;
+}
+
 .cardset-two {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -442,5 +526,9 @@ body {
 
 .advamtages-section {
   padding-bottom: 0;
+}
+
+.team-section {
+  background-color: #f5f4fa;
 }
 /*# sourceMappingURL=main.css.map */
